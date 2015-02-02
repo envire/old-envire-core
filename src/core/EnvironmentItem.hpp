@@ -33,15 +33,7 @@ static envire::SerializationPlugin<_classname> _classname ## factory;
 namespace envire
 {
     class Environment;
-    class Serialization;
-    class FrameNode;
-    class Layer;
-    class Operator;
-    class CartesianMap;
-    class EventHandler;
-    class SynchronizationEventQueue;
     class Event;
-    class SerializationFactory;
 
 
     /** Base class for alle items that are defined in the envire framework.
@@ -128,9 +120,9 @@ namespace envire
 
 	virtual ~EnvironmentItem();
 
-	virtual void serialize(Serialization &so);
+	virtual void serialize(Serialization &so) = 0;
         
-        virtual void unserialize(Serialization &so);
+        virtual void unserialize(Serialization &so) = 0;
 
 	virtual const std::string& getClassName() const {return className;};
 

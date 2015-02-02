@@ -1,5 +1,6 @@
-#include "Core.hpp"
+#include "FrameNode.hpp"
 #include "Serialization.hpp"
+#include "Environment.hpp"
 
 #include <Eigen/Geometry>
 #include <Eigen/SVD>

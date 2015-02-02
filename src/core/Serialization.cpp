@@ -11,7 +11,7 @@
 #include "Operator.hpp"
 #include "FrameNode.hpp"
 #include "Layer.hpp"
-#include <envire/Core.hpp>
+#include "CartesianMap.hpp"
 
 extern "C" {
 #include <yaml.h>

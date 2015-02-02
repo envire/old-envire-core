@@ -1,7 +1,8 @@
 #include "EventHandler.hpp"
 #include "FrameNode.hpp"
 #include "Layer.hpp"
-#include <envire/Core.hpp>
+#include "CartesianMap.hpp"
+#include "EnvironmentItem.hpp"
 #include <boost/thread/locks.hpp>
 
 using namespace envire;

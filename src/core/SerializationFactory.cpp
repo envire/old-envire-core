@@ -1,14 +1,8 @@
-#include "Core.hpp"
-#include "core/Serialization.hpp"
+#include "SerializationFactory.hpp"
 
-#include "maps/LaserScan.hpp"
-#include "maps/TriMesh.hpp"
-#include "maps/Pointcloud.hpp"
-#include "maps/Grids.hpp"
-#include "maps/MLSGrid.hpp"
-#include "operators/ScanMeshing.hpp"
-#include "operators/Projection.hpp"
-#include "operators/MLSProjection.hpp"
+#include "EnvironmentItem.hpp"
+#include "Serialization.hpp"
+
 
 using namespace envire;
 

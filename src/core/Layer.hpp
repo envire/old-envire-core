@@ -3,6 +3,7 @@
 
 #include "EnvironmentItem.hpp"
 #include "Holder.hpp"
+#include "Operator.hpp"
 
 namespace envire
 {

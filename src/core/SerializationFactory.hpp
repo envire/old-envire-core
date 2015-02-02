@@ -3,7 +3,6 @@
 
 #include <map>
 #include <string>
-// #include <envire/core/Serialization.hpp>
 
 namespace envire
 {

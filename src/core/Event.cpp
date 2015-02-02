@@ -1,6 +1,8 @@
-#include "Core.hpp"
-#include "core/Event.hpp"
-#include "core/EventHandler.hpp"
+#include "Event.hpp"
+#include "EventHandler.hpp"
+#include "Environment.hpp"
+#include "EnvironmentItem.hpp"
+#include "FrameNode.hpp"
 
 using namespace envire;
 
